@@ -5,6 +5,7 @@
 # 📝 Ankita's Todo App
 
 <p align="center"><i>A fast and modern Todo app built with React, featuring task sharing via link, P2P Task Sync with WebRTC, theme customization, offline usage as a PWA, and caching for smooth performance. Customized with a beautiful gradient background.</i></p>
+Link to App - https://react-cool-todo-app.netlify.app/
 
 <img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/baner.png" />
 
