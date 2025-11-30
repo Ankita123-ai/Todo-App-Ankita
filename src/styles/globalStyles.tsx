@@ -98,7 +98,14 @@ export const GlobalStyles = () => {
         body {
           margin: 8px 16vw;
           touch-action: manipulation;
-          background: ${theme.secondary};
+          background: linear-gradient(
+            to right,
+            #4a154b 0%,
+            #6b2c91 30%,
+            #8b3a8f 50%,
+            #2d5a6f 75%,
+            #1a5f7a 100%
+          );
           background-attachment: fixed;
           background-size: cover;
           transition: 0.3s background;

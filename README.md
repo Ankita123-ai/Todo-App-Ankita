@@ -2,9 +2,9 @@
 <img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/public/logo192.png" width="128px" />
 </p> -->
 
-# 📝React.js Todo App
+# 📝 Ankita's Todo App
 
-<p align="center"><i>A fast and modern Todo app built with React, featuring task sharing via link, P2P Task Sync with WebRTC, theme customization, offline usage as a PWA, and caching for smooth performance.</i></p>
+<p align="center"><i>A fast and modern Todo app built with React, featuring task sharing via link, P2P Task Sync with WebRTC, theme customization, offline usage as a PWA, and caching for smooth performance. Customized with a beautiful gradient background.</i></p>
 
 <img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/baner.png" />
 

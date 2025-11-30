@@ -1,0 +1,109 @@
+═══════════════════════════════════════════════════════════════
+  STEP-BY-STEP GUIDE TO UPLOAD CODE TO GITHUB
+═══════════════════════════════════════════════════════════════
+
+YOUR REPOSITORY: https://github.com/Ankita123-ai/To-Do-list
+
+═══════════════════════════════════════════════════════════════
+OPTION 1: EASY WAY (Recommended)
+═══════════════════════════════════════════════════════════════
+
+Just double-click: UPLOAD-TO-GITHUB.bat
+
+It will do everything automatically!
+
+═══════════════════════════════════════════════════════════════
+OPTION 2: MANUAL STEPS
+═══════════════════════════════════════════════════════════════
+
+Open PowerShell or Command Prompt in your project folder:
+
+1. Initialize Git:
+   git init
+
+2. Add remote repository:
+   git remote add origin https://github.com/Ankita123-ai/To-Do-list.git
+
+3. Add all files:
+   git add .
+
+4. Commit:
+   git commit -m "Initial commit: Todo App with custom gradient background"
+
+5. Set branch name:
+   git branch -M main
+
+6. Push to GitHub:
+   git push -u origin main
+
+   When asked for credentials:
+   - Username: Ankita123-ai
+   - Password: Use Personal Access Token (see below)
+
+═══════════════════════════════════════════════════════════════
+IMPORTANT: PERSONAL ACCESS TOKEN
+═══════════════════════════════════════════════════════════════
+
+GitHub requires a Personal Access Token (NOT your password).
+
+HOW TO GET ONE:
+
+1. Go to: https://github.com/settings/tokens
+
+2. Click "Generate new token (classic)"
+
+3. Give it a name: "Todo App Upload"
+
+4. Select expiration: (choose how long you want it to work)
+
+5. Select scopes: 
+   ☑ repo (check this box - this gives full access to repositories)
+
+6. Scroll down and click "Generate token"
+
+7. COPY THE TOKEN IMMEDIATELY - you won't see it again!
+
+8. Use this token as your "password" when Git asks for credentials
+
+═══════════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+Problem: "Repository not found" or "Permission denied"
+Solution: 
+  - Make sure the repository exists at: 
+    https://github.com/Ankita123-ai/To-Do-list
+  - Make sure you're logged in with the correct GitHub account
+  - Check you have write access to the repository
+
+Problem: "Authentication failed"
+Solution:
+  - Use Personal Access Token, not your password
+  - Make sure token has "repo" scope selected
+  - Generate a new token if the old one expired
+
+Problem: "No files to commit"
+Solution:
+  - Run: git status
+  - If files show as untracked, run: git add .
+  - Then commit again
+
+Problem: Repository is empty on GitHub after push
+Solution:
+  - The push might have failed silently
+  - Check for error messages in the terminal
+  - Try pushing again: git push -u origin main
+
+═══════════════════════════════════════════════════════════════
+QUICK COMMANDS (Copy & Paste All)
+═══════════════════════════════════════════════════════════════
+
+git init
+git remote add origin https://github.com/Ankita123-ai/To-Do-list.git
+git add .
+git commit -m "Initial commit: Todo App with custom gradient background"
+git branch -M main
+git push -u origin main
+
+═══════════════════════════════════════════════════════════════
+
